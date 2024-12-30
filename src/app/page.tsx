@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { QrGenerated } from "./components/Qrgenerated";
 import Image from "next/image";
 
-export default function Home(url: string) {
+export default function Home() {
   const [valorInput, setValorInput] = useState("");
   const [inputUrl, setInputUrl] = useState(false);
 
